@@ -7,32 +7,41 @@
 
 /* end of the defaults */
 
+/* #header {
+    display: flex;
+} */
+
+#header {
+    background-image: url(../images/header-bg.jpg);
+}
 
 .container {
     background-color: #212529;
     height: 100px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
+.logo {
+    display: flex;
+}
 
 .logo img {
     height: 100px;
     width: 156px;
-    margin-left: 60px;
     display: flex;
 }
 
 .nav {
-    /* display: flex;
-    justify-content: end; */
+    display: flex;
+    
    
 }
 
 .nav a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     display: inline-block;
 
 }
