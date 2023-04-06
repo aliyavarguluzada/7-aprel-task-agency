@@ -15,7 +15,8 @@
 /* header */
 #header {
     background-image: url(../images/header-bg.jpg);
-
+    position: sticky;
+    top: 0;
 }
 
 .container {
@@ -25,8 +26,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px;
-    position: sticky;
-    top: 0;
+
 }
 
 .logo {
@@ -74,6 +74,10 @@ a:hover {
     background-size: cover;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .main-content {
@@ -82,7 +86,23 @@ a:hover {
     color: #fff;
     display: flex;
     flex-direction: column;
- 
+}
+
+.main-content * {
+    margin: 30px 0px;
+
+}
+
+.main-content p {
+    font-size: 36px;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+
 }
 
 .main-content a {
@@ -90,4 +110,39 @@ a:hover {
     text-transform: uppercase;
     text-decoration: none;
     height: 50px;
+    font-size: 1.125rem;
+    padding: 2.2rem 2.5rem;
+    background-color: #FFC800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+
+/* end of the main */
+
+/* serrvices */
+#services-content * {
+    margin: 20px 0px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#services-content {
+    height: 700px;
+    text-align: center;
+}
+
+.sss p {
+    color: #6c757d;
+
+
+}
+.sss h4 {
+    text-transform: capitalize;
+}
+.sss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
