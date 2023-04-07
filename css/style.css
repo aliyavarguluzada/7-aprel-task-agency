@@ -138,11 +138,83 @@ a:hover {
 
 
 }
+
 .sss h4 {
     text-transform: capitalize;
 }
+
 .sss {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* End of the services */
+
+/* portfolio */
+#portfolio {
+    /* /* display: flex;* */
+    text-align: center;
+    /* width: 100%; */
+    background-color: #F8F9FA;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+
+.rows {
+    padding: 30px;
+}
+
+.matvey {
+    margin: 10px 0px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.r {
+    width: 23%;
+    /* display: flex; */
+}
+
+.r h3 {
+    background-color: #F8F9FA;
+
+}
+
+.r p {
+    background-color: #F8F9FA;
+
+}
+
+.pictures {
+    width: 100%;
+}
+
+#portfolio img {
+    width: 25.5rem;
+}
+
+/* end of the portfolio */
+
+/* about */
+.text-about {
+    text-align: center;
+    padding-top: 70px;
+}
+
+li {
+    display: flex;
+    
 }
