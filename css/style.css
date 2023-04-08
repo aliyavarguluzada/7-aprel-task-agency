@@ -118,6 +118,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     font-weight: 700;
+    border-radius: 1.cap;
 }
 
 
@@ -213,16 +214,178 @@ a:hover {
 .text-about {
     text-align: center;
     padding-top: 70px;
+    margin-bottom: 60px;
 }
 
 li {
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    list-style: none;
 }
-.im p{
-   width: 25%;
-    
+
+.im p {
+    width: 25%;
+    line-height: 1.75;
+
 }
-.about-content  {
-    
+
+/* .about-content .border {
+    border-left: 5px solid #212529;
+    width: 60%;
+} */
+
+ul li {
+    width: 85%;
+    margin: auto;
+    padding: 50px 0px;
+
+}
+
+li img {
+    border: 7px solid #e9ecef;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+/* ortadan xetti left border ver sonra onu saga cek  sekli border radiusnan dairevi et*/
+
+.about-content img {
+    border-radius: 100%;
+}
+
+.im1 {
+    width: 41%;
+    text-align: right;
+    float: left;
+
+}
+
+.ext h4 {
+    border-radius: 100%;
+    background-color: #FFC800;
+    text-align: center;
+}
+
+/* end of the about */
+
+/* team */
+.team-content {
+    text-align: center;
+    display: block;
+}
+
+/* .team-members {
+    /* width: 25%; */
+/* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+/* } */
+#team {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F8F9FA;
+}
+
+.col {
+    flex: 0 0 auto;
+
+    width: 33.33333333%;
+}
+
+.rowa {
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.abc {
+    text-align: center;
+    padding: 60px;
+}
+.im11 {
+    padding-left: 200px;
+}
+
+.im33 {
+    padding-right: 200px;
+}
+.abc img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 50% !important
+}
+.abc h4 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+  
+}
+
+.word p {
+    text-align: center;
+    background-color: #F8F9FA;
+    padding-bottom: 100px;
+}
+
+.team {
+    margin: 0 px 40px;
+}
+
+.t {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end of the team */
+
+
+/*companies  */
+
+
+
+
+/*end of the companies*/
+
+/*contact us */
+
+
+.contact {
+    background-color: #212529;
+    background-image: url(/images/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 710px;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 70px;
+    color: #fff;
+}
+
+.text-center h2 {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+
+}
+
+/* end of the contact */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-bottom: 100px;
+}
+
+.footer a {
+    color: #212529;
+    text-decoration: none;
 }
